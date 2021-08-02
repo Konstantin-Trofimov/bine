@@ -1,0 +1,72 @@
+
+@font-face {
+    font-family: 'LetoSans';
+    src: url('./fonts/LetoSans.woff2') format('woff2'),
+        url('./fonts/LetoSans.woff') format('woff'),
+        url('./fonts/   LetoSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LetoSans';
+    src: url('./fonts/LetoSans-Bold.woff2') format('woff2'),
+        url('./fonts/LetoSans-Bold.woff') format('woff'),
+        url('./fonts/LetoSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'LetoSans';
+    src: url('./fonts/LetoSans-Thin.woff2') format('woff2'),
+        url('./fonts/LetoSans-Thin.woff') format('woff'),
+        url('./fonts/LetoSans-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'LetoSans';
+}
+
+
+
+.content__header {
+    width: 100vw;
+    background-color: #272977;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content__header img {
+    display: block;
+}
+
+.content__body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.content__body ul li {
+    color: #272977;
+    font-size: 26px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.content__body-images {
+    margin-top: 10px;
+}
+
+.content__body-images img {
+    width: 100%;
+}
